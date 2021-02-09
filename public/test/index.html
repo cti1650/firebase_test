@@ -7,6 +7,30 @@
     <title>テスト</title>
   </head>
   <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyDaui6hImHGL3E_l4s-9aYqtmyan5I-kq4",
+        authDomain: "barstock-d948a.firebaseapp.com",
+        databaseURL: "https://barstock-d948a-default-rtdb.firebaseio.com",
+        projectId: "barstock-d948a",
+        storageBucket: "barstock-d948a.appspot.com",
+        messagingSenderId: "901695771303",
+        appId: "1:901695771303:web:5861513400c20c223cc182",
+        measurementId: "G-YL6X9CVKX3",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
     <h2>テスト</h2>
     <div>成功！！</div>
   </body>
